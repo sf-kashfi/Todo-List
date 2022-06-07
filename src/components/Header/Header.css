@@ -1,0 +1,30 @@
+.date{
+    padding: 10px 30px;
+}
+
+h1{
+    color: #8CC0DE;
+    display: inline-block;
+}
+
+h2{
+    color: #8cc0de94; 
+}
+
+.Line{
+    max-width: 100%;
+    position: relative;
+}
+
+.taskNumber{
+   display: inline-block;
+   position: absolute;
+   right: 0; 
+}
+
+hr{
+    color: #F4BFBF;
+}
+
+
+

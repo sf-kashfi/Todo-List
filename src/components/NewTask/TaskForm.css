@@ -1,0 +1,28 @@
+.new-task__controls {
+    display: inline-block;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .new-task__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+    color: #F4BFBF;
+  }
+  
+  .new-task__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 100%;
+    display: inline-block;
+  }
+  
+  .new-task__actions {
+    display: inline-block;
+  }

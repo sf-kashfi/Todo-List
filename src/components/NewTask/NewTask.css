@@ -1,0 +1,41 @@
+.new-task {
+    padding: 1rem;
+    margin: 2rem auto;
+  
+    
+    border-radius: 12px;
+    text-align: center;
+  }
+  
+  .new-task button {
+    font: inherit;
+    cursor: pointer;
+    padding: 0.6rem 1.8rem;
+    margin-left: 0.5rem;
+    border: 1px solid ;
+    background-color: #F4BFBF;
+    color: white;
+    border-radius: 12px;
+  }
+  
+  .new-task button:hover,
+  .new-task button:active {
+    background-color: #f3aeae;
+    border-color: #f2aeae;
+  }
+  
+  .new-task button.alternative {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .new-task button.alternative:hover,
+  .new-task button.alternative:active, {
+    background-color: #f2aeae;
+  }
+  
+  .new-task :hover,
+  .new-task :active{
+    border-color: #f2aeae;
+  }
+  
