@@ -12,5 +12,5 @@ In this project I used Font Awesome icons, so you have to install the following 
 And then run the project:
 ### `npm install`
 ### `npm start`
-result:<br>
+# result:<br>
 ![Button example](https://github.com/sf-kashfi/Todo-List/blob/master/src/demo.png)
