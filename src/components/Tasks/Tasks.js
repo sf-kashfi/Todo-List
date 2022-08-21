@@ -4,6 +4,9 @@ import Card from '../UI/Card';
 import './Tasks.css';
 
 const Tasks = (props) => {
+    const deleteTaskHandler = (key) => {
+        props.onDeleteTask(key);
+    };
     return (
         <div>
             <Card className='tasks'>
@@ -11,6 +14,7 @@ const Tasks = (props) => {
                     <TaskItem
                         key={t.id}
                         task={t.task}
+                        deleteTask={deleteTaskHandler}
                     />
                 ))}
             </Card>

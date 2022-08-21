@@ -30,12 +30,18 @@ const App = () => {
     });
   };
 
+  const deleteTaskHandler = (deletingTask) => {
+    setTasks(prevTasks => {
+      const updateTasks = prevTasks.filter(task => task.task !== deletingTask);
+      return updateTasks;
+    });
+  };
 
   return (
     <div className='container'>
       <Header tasknumber={tasks.length} />
       <NewTask onAddTask={addTaskHandler} />
-      <Tasks items={tasks} />
+      <Tasks items={tasks} onDeleteTask={deleteTaskHandler} />
     </div>
   );
 };
